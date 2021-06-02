@@ -59,7 +59,8 @@ public class Main {
         System.out.println("Quantidade de épocas: " + ((int) epocas / vezesQueAmostraRoda));
         treino.classifica(amostras.getAmostras());
         System.out.println("Tempo de Treinamento:" + (tempoFinal - tempoInicial));
-       
+        System.out.println("TESTANDO GIT HUB" );
+        
     }
     
 }
