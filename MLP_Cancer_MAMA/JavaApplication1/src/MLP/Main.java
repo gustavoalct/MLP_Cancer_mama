@@ -1,6 +1,4 @@
-// Alunos Gustavo e Hélder
-// Trabalho IA 6° Período 
-// Professor: Hugo Resende
+
 package MLP;
 
 import arquivo.Amostra;
@@ -59,7 +57,8 @@ public class Main {
         System.out.println("Quantidade de épocas: " + ((int) epocas / vezesQueAmostraRoda));
         treino.classifica(amostras.getAmostras());
         System.out.println("Tempo de Treinamento:" + (tempoFinal - tempoInicial));
-        System.out.println("TESTANDO GIT HUB" );
+        System.out.println("TEMPO FINAL: "+ tempoFinal );
+
         
     }
     

@@ -9,7 +9,7 @@ class Treinamento {
 
     // Todas as amostras para treinamento
     private ArrayList<List<String>> amostras;
-
+    
     // Posição atual da amostra 
     private int indiceAmostra;
 
@@ -28,7 +28,7 @@ class Treinamento {
     // Peso BIAS de cada neuronio de cada camada oculta
     private double[] pesoBiasCamada1, pesoBiasCamada2;
     private double pesoBiasSaida;
-
+    System.out.println("Iniciando treinamento... ");
 
     // Gradiente de cada neuronio de cada camada oculta
     private double[] gradienteCamada1, gradienteCamada2;
